@@ -1,8 +1,13 @@
-# streamlit-template
+# streamlit-template-oss
 
-## Running this app
+Made with :heart: by [Intellify](https://intellify.com.au/)
+
+
+## Running this sample app
 
 ### Run with docker-compose (Easiest and Cleanest):
+
+**Pre-requisites**
 * Docker installed and running
 * docker-compose installed
 
@@ -17,15 +22,20 @@ $ docker-compose down
 ```
 
 ### Run Natively:
+
+**Pre-requisites**
+* pip
+
 ```bash
 $ pip install -r requirements.txt
 
 $ streamlit run app.py
 ```
 
-## Run with virtualenv:
+### Run with virtualenv:
 
 **Pre-requisites**
+* pip
 * virtualenv
 
 ```bash
