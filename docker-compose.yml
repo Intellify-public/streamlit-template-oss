@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  streamlit-app:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+       # Mounting this file allows updates to the webpage without restarting the container
+      - ./:/app/
+
